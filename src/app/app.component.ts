@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'basic-event-binding-exercise';
+  // click = 'message'
+  message = function(){console.log('You did it!')}
+
 }
+
